@@ -64,7 +64,7 @@ export default {
       this.selectedIndex = index;
       // console.log(index)
     },
-    // Submit function
+    
     submitAnswers() {
       let isCorrect = false;
       if (this.selectedIndex === this.correctIndex) {
